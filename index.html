@@ -1,13 +1,105 @@
 ---
-layout: default
-title: Your New Jekyll Site
+layout: landing
 ---
+  <!-- HEADER -->
+  <header class="top-header">
 
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-</div>
+    <div class="container">
+
+      <img src="" alt="black & white portrait of Stephane looking toward his futur">
+      <div class="title">
+        <h1>{{site.author}}</h1>
+        <h2>{{site.author_job}}</h2>
+      </div>
+
+      <div class="intro">
+        <em>Hi.</em>
+        <p>
+          I’m Steph, a French <del>noob</del><ins> junior</ins> Front-end Developer who implements CSS for multi-devices and messes with  the JS nicely.
+        </p>
+      </div>
+
+    </div> <!-- end .container -->
+
+  </header>
+
+
+  <!-- SECTION WT*-I-DO -->
+  <section class="what-I-do">
+
+    <div class="container">
+
+      <h2>What I Do.</h2>
+      <p>I do not design (not yet). Here is what I enjoy doing:</p>
+      <ul>
+        <li>Front-end Developement FTW!</li>
+        <li>PSD to HTML5/CSS3/Javascript Website apps Templates</li>
+        <li>Mobile-first, Responsive Layouts</li>
+        <li>User Interface Implementation</li>
+        <li>Performance-optimized websites</li>
+      </ul>
+
+        <p>After ending my last year IT class with a 3 months internship as a front-end developer at <a href="//twitter.com/arterrien" target="_blank">Arterrien</a>. Now I’m looking for new opportunities to keep improving and to work on exciting projects.</p>
+
+    </div> <!-- end .container -->
+
+  </section>
+
+
+  <!-- SECTION CONTACT -->
+
+  <section class="contact">
+
+    <div class="container">
+
+      <h2>Get in Touch.</h2>
+
+      <ul>
+        <li><a href="tel:+33672945692">+33 6 72 94 56 92</a></li>
+        <li><a href="mailto:hi@steph.io">hi@steph.io</a></li>
+        <li><a href="//twitter.com/stephCoue">@stephCoue</a></li>
+      </ul>
+
+    </div> <!-- end .container -->
+
+  </section>
+
+
+  <!-- SECTION SOCIALIZE -->
+  <section class="socialize">
+
+    <ul>
+      <li><a href="//fr.linkedin.com/in/stephcoue/">my Linkedin profile</a></li>
+      <li><a href="//github.com/stephCoue">my Github repos</a></li>
+      <li><a href="//fr.viadeo.com/fr/profile/stephane.coue2">my Viadeo profile</a></li>
+      <li><a href="//plus.google.com/u/0/100358654321848790843?rel=author" >I'm on Google plus</a></li>
+      <li><a href="//lanyrd.com/profile/stephcoue/">Meet me in an Event. I'm on Lanyrd</a></li>
+    </ul>
+
+  </section>
+
+  <!-- SECTION SAY-HELLO -->
+  <section class="say-hello" style="display:none">
+
+    <div class="container">
+
+      <h2>Say <em>Hello</em>.</h2>
+      <p>Project in Mind? I’d love to hear from you.</p>
+
+      <ul>
+        <li><a href="mailto:hi@steph.io">hi@steph.io</a></li>
+        <li><a href="//twitter.com/stephCoue">@stephCoue</a></li>
+        <li><a href="//github.com/stephCoue">my Github repos</a></li>
+        <li><a href="//fr.linkedin.com/in/stephcoue/">my Linkedin profile</a></li>
+       <li><a href="//fr.viadeo.com/fr/profile/stephane.coue2">my Viadeo profile</a></li>
+       <li><a href="//plus.google.com/u/0/100358654321848790843?rel=author" >I'm on Google plus</a></li>
+       <li><a href="//lanyrd.com/profile/stephcoue/">Meet me in an Event. I'm on Lanyrd</a></li>
+      </ul>
+
+    </div> <!-- end .container -->
+
+  </section>
+
+
+
+  <!-- FOOTER -->

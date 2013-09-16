@@ -1,3 +1,8 @@
-name: Your New Jekyll Site
+name: Stephane Coué — Front-End Developer
+author: Stephane Coué
+author_job: Front-End Developer
 markdown: redcarpet
 pygments: true
+
+destination: ./_public
+permalink: /blog/:year/:month/:day/:title
