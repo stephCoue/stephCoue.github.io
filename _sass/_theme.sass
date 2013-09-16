@@ -21,15 +21,15 @@ h2
 
 
 .portrait
-  // width: 58.125%
-  width: 42.125%
+  width: 40%
   margin-left: auto
   margin-right: auto
   margin-bottom: emCalc(30px)
-
   img
     max-width: 100%
     height: auto
+    margin-left: 50%
+    +transform(translateX(-50%))
 
 
 .title
@@ -87,4 +87,17 @@ h2
 .socialize
   background: $dark
 
+
+
+
+
+
+// FOOTER
+
+footer
+  a
+    &:hover
+      color: $lightGrey
+    &:active
+      color: $darkGrey
 
