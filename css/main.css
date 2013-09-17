@@ -268,33 +268,33 @@ a:active {
   margin: 0 auto;
 }
 
-/* line 7, ../_sass/_theme.sass */
+/* line 9, ../_sass/_theme.sass */
 header,
 section {
   padding: 3.75em 0;
 }
 
-/* line 11, ../_sass/_theme.sass */
+/* line 13, ../_sass/_theme.sass */
 h2 {
   font-size: 1.875em;
   font-weight: 100;
   margin: 0;
 }
 
-/* line 18, ../_sass/_theme.sass */
+/* line 20, ../_sass/_theme.sass */
 .top-header {
   color: whitesmoke;
   background: #151515;
 }
 
-/* line 23, ../_sass/_theme.sass */
+/* line 25, ../_sass/_theme.sass */
 .portrait {
   width: 40%;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 1.875em;
 }
-/* line 28, ../_sass/_theme.sass */
+/* line 30, ../_sass/_theme.sass */
 .portrait img {
   max-width: 100%;
   height: auto;
@@ -306,16 +306,16 @@ h2 {
   transform: translateX(-50%);
 }
 
-/* line 35, ../_sass/_theme.sass */
+/* line 37, ../_sass/_theme.sass */
 .title {
   text-align: center;
 }
-/* line 37, ../_sass/_theme.sass */
+/* line 39, ../_sass/_theme.sass */
 .title h1 {
   font-size: 2.25em;
   margin: 0;
 }
-/* line 40, ../_sass/_theme.sass */
+/* line 42, ../_sass/_theme.sass */
 .title h2 {
   font-size: 1.125em;
   margin-top: 0.75em;
@@ -323,46 +323,46 @@ h2 {
   font-weight: bold;
 }
 
-/* line 48, ../_sass/_theme.sass */
+/* line 50, ../_sass/_theme.sass */
 .intro em {
   font-style: normal;
   font-size: 3em;
   font-weight: 100;
 }
-/* line 52, ../_sass/_theme.sass */
+/* line 54, ../_sass/_theme.sass */
 .intro p {
   font-size: 1.25em;
   line-height: 1.5;
 }
-/* line 55, ../_sass/_theme.sass */
+/* line 57, ../_sass/_theme.sass */
 .intro ins {
   text-decoration: none;
 }
 
-/* line 63, ../_sass/_theme.sass */
+/* line 65, ../_sass/_theme.sass */
 .what-I-do {
   background: #b4b4b4;
 }
 
-/* line 69, ../_sass/_theme.sass */
+/* line 71, ../_sass/_theme.sass */
 .contact {
   background: #656565;
   text-align: center;
 }
 
-/* line 73, ../_sass/_theme.sass */
+/* line 75, ../_sass/_theme.sass */
 .primary-contact {
   list-style: none;
   padding: 0;
   font-size: 1.25em;
   margin-bottom: 0;
 }
-/* line 78, ../_sass/_theme.sass */
+/* line 80, ../_sass/_theme.sass */
 .primary-contact li {
   padding: 0.3em 0.4em;
   font-weight: 700;
 }
-/* line 81, ../_sass/_theme.sass */
+/* line 83, ../_sass/_theme.sass */
 .primary-contact a {
   padding: 0.4em 1em;
 }
@@ -512,18 +512,18 @@ h2 {
   background-position: 0 0;
 }
 
-/* line 104, ../_sass/_theme.sass */
+/* line 106, ../_sass/_theme.sass */
 .socialize {
   background: #151515;
 }
 
-/* line 107, ../_sass/_theme.sass */
+/* line 109, ../_sass/_theme.sass */
 .social {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-/* line 112, ../_sass/_theme.sass */
+/* line 114, ../_sass/_theme.sass */
 .social li {
   display: inline-block;
   font: 0/0 a;
@@ -531,28 +531,28 @@ h2 {
   text-shadow: none;
   background-color: transparent;
   border: 0;
-  margin-right: 5%;
+  margin-right: 3.2%;
 }
-/* line 116, ../_sass/_theme.sass */
+/* line 118, ../_sass/_theme.sass */
 .social li:last-child {
   margin-right: 0;
 }
-/* line 119, ../_sass/_theme.sass */
+/* line 121, ../_sass/_theme.sass */
 .social a {
   display: block;
   width: 100%;
   height: 100%;
 }
 
-/* line 129, ../_sass/_theme.sass */
+/* line 131, ../_sass/_theme.sass */
 footer {
   font-size: 0.8em;
 }
-/* line 132, ../_sass/_theme.sass */
+/* line 134, ../_sass/_theme.sass */
 footer a:hover {
   color: #b4b4b4;
 }
-/* line 134, ../_sass/_theme.sass */
+/* line 136, ../_sass/_theme.sass */
 footer a:active {
   color: #656565;
 }
