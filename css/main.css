@@ -367,16 +367,192 @@ h2 {
   padding: 0.4em 1em;
 }
 
-/* line 87, ../_sass/_theme.sass */
+/* line 154, social-mobile/*.png */
+.social-mobile-sprite, .social-mobile-github, .social-mobile-gplus, .social-mobile-lanyrd, .social-mobile-linkedin, .social-mobile-viadeo {
+  background: url('../assets/img/social-mobile-sed7ce95a67.png') no-repeat;
+}
+
+/* line 60, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-mobile-github {
+  background-position: 0 -348px;
+  height: 48px;
+  width: 55px;
+}
+/* line 43, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-mobile-github:hover, .social-mobile-github.github_hover, .social-mobile-github.github-hover {
+  background-position: 0 -464px;
+}
+/* line 43, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-mobile-github:active, .social-mobile-github.github_active, .social-mobile-github.github-active {
+  background-position: 0 -406px;
+}
+
+/* line 60, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-mobile-gplus {
+  background-position: 0 -290px;
+  height: 48px;
+  width: 49px;
+}
+/* line 43, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-mobile-gplus:hover, .social-mobile-gplus.gplus_hover, .social-mobile-gplus.gplus-hover {
+  background-position: 0 -232px;
+}
+/* line 43, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-mobile-gplus:active, .social-mobile-gplus.gplus_active, .social-mobile-gplus.gplus-active {
+  background-position: 0 -174px;
+}
+
+/* line 60, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-mobile-lanyrd {
+  background-position: 0 -522px;
+  height: 48px;
+  width: 45px;
+}
+/* line 43, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-mobile-lanyrd:hover, .social-mobile-lanyrd.lanyrd_hover, .social-mobile-lanyrd.lanyrd-hover {
+  background-position: 0 -638px;
+}
+/* line 43, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-mobile-lanyrd:active, .social-mobile-lanyrd.lanyrd_active, .social-mobile-lanyrd.lanyrd-active {
+  background-position: 0 -580px;
+}
+
+/* line 60, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-mobile-linkedin {
+  background-position: 0 -754px;
+  height: 48px;
+  width: 48px;
+}
+/* line 43, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-mobile-linkedin:hover, .social-mobile-linkedin.linkedin_hover, .social-mobile-linkedin.linkedin-hover {
+  background-position: 0 -812px;
+}
+/* line 43, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-mobile-linkedin:active, .social-mobile-linkedin.linkedin_active, .social-mobile-linkedin.linkedin-active {
+  background-position: 0 -696px;
+}
+
+/* line 60, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-mobile-viadeo {
+  background-position: 0 -58px;
+  height: 48px;
+  width: 42px;
+}
+/* line 43, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-mobile-viadeo:hover, .social-mobile-viadeo.viadeo_hover, .social-mobile-viadeo.viadeo-hover {
+  background-position: 0 -116px;
+}
+/* line 43, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-mobile-viadeo:active, .social-mobile-viadeo.viadeo_active, .social-mobile-viadeo.viadeo-active {
+  background-position: 0 0;
+}
+
+/* line 60, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-mobile-github {
+  background-position: 0 -348px;
+}
+/* line 43, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-mobile-github:hover, .social-mobile-github.github_hover, .social-mobile-github.github-hover {
+  background-position: 0 -464px;
+}
+/* line 43, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-mobile-github:active, .social-mobile-github.github_active, .social-mobile-github.github-active {
+  background-position: 0 -406px;
+}
+
+/* line 60, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-mobile-gplus {
+  background-position: 0 -290px;
+}
+/* line 43, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-mobile-gplus:hover, .social-mobile-gplus.gplus_hover, .social-mobile-gplus.gplus-hover {
+  background-position: 0 -232px;
+}
+/* line 43, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-mobile-gplus:active, .social-mobile-gplus.gplus_active, .social-mobile-gplus.gplus-active {
+  background-position: 0 -174px;
+}
+
+/* line 60, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-mobile-lanyrd {
+  background-position: 0 -522px;
+}
+/* line 43, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-mobile-lanyrd:hover, .social-mobile-lanyrd.lanyrd_hover, .social-mobile-lanyrd.lanyrd-hover {
+  background-position: 0 -638px;
+}
+/* line 43, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-mobile-lanyrd:active, .social-mobile-lanyrd.lanyrd_active, .social-mobile-lanyrd.lanyrd-active {
+  background-position: 0 -580px;
+}
+
+/* line 60, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-mobile-linkedin {
+  background-position: 0 -754px;
+}
+/* line 43, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-mobile-linkedin:hover, .social-mobile-linkedin.linkedin_hover, .social-mobile-linkedin.linkedin-hover {
+  background-position: 0 -812px;
+}
+/* line 43, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-mobile-linkedin:active, .social-mobile-linkedin.linkedin_active, .social-mobile-linkedin.linkedin-active {
+  background-position: 0 -696px;
+}
+
+/* line 60, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-mobile-viadeo {
+  background-position: 0 -58px;
+}
+/* line 43, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-mobile-viadeo:hover, .social-mobile-viadeo.viadeo_hover, .social-mobile-viadeo.viadeo-hover {
+  background-position: 0 -116px;
+}
+/* line 43, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-mobile-viadeo:active, .social-mobile-viadeo.viadeo_active, .social-mobile-viadeo.viadeo-active {
+  background-position: 0 0;
+}
+
+/* line 104, ../_sass/_theme.sass */
 .socialize {
   background: #151515;
 }
 
-/* line 99, ../_sass/_theme.sass */
+/* line 107, ../_sass/_theme.sass */
+.social {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+/* line 112, ../_sass/_theme.sass */
+.social li {
+  display: inline-block;
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+  margin-right: 5%;
+}
+/* line 116, ../_sass/_theme.sass */
+.social li:last-child {
+  margin-right: 0;
+}
+/* line 119, ../_sass/_theme.sass */
+.social a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 129, ../_sass/_theme.sass */
+footer {
+  font-size: 0.8em;
+}
+/* line 132, ../_sass/_theme.sass */
 footer a:hover {
   color: #b4b4b4;
 }
-/* line 101, ../_sass/_theme.sass */
+/* line 134, ../_sass/_theme.sass */
 footer a:active {
   color: #656565;
 }
