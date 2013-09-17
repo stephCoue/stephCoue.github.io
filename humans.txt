@@ -1,0 +1,17 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    <name> -- <role> -- <twitter>
+    Stephane Coué -- Designer & Developer -- @StephCoue
+
+# THANKS
+
+    *
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3, Normalize.css,
+    Sass, Compass, Susy
+    jekyll
