@@ -3,12 +3,15 @@
 .container
   width: 93.75%
   margin: 0 auto
-  // +container
-  // +susy-grid-background
+  +container
+  +susy-grid-background
 
 header,
 section
   padding: emCalc(60px) 0
+  // @media only screen and (min-width: $M )
+  +at-breakpoint($M)
+    padding: emCalc(120px) 0
 
 h2
   font-size: emCalc(30px)
@@ -20,13 +23,19 @@ h2
 .top-header
   color: $nearlyWhite
   background: $dark
-
+  +at-breakpoint($M)
+    background: $lightGrey url('../assets/img/BG-header-portrait-detoure.png') 168% 1em no-repeat
+  +at-breakpoint($L)
+    background-position: right 1em
 
 .portrait
   width: 40%
   margin-left: auto
   margin-right: auto
   margin-bottom: emCalc(30px)
+  @media only screen and (min-width: $M )
+    display: none
+
   img
     max-width: 100%
     height: auto
@@ -36,34 +45,81 @@ h2
 
 .title
   text-align: center
+  +at-breakpoint($M)
+    +span-columns(4 , 12)
+    +post(8)
+    text-align: left
+    margin-bottom: emCalc(144px)
+
+  .container
+    +at-breakpoint($M)
+      margin-bottom: 0
+
   h1
     font-size: emCalc(36px)
     margin: 0
+    +at-breakpoint($M)
+      font-size: 2.39583em
+      margin: 0
   h2
     font-size: emCalc(18px)
     margin-top: emCalc(12px)
     margin-bottom: emCalc(60px)
     font-weight: bold
+    +at-breakpoint($M)
+      font-size: emCalc(24px)
+      margin-left: .6em
+      margin-bottom: 0
 
 
 .intro
+  +at-breakpoint($M)
+    +span-columns(7,12)
+    +post(5)
+    margin-bottom: 2.5em
+
   em
     font-style: normal
     font-size: emCalc(48px)
     font-weight: 100
+    +at-breakpoint($M)
+      font-size: emCalc(72px)
   p
     font-size: emCalc(20px)
     line-height: 1.5
+    +at-breakpoint($M)
+      font-size: emCalc(22px)
+      margin-top: 2em
   ins
     text-decoration: none
 
+
+// BIG ICONS
+
+.big-icons
+  height: 414px
+  // background: $nearlyWhite
+  +at-breakpoint($M)
+    background: red
+
+  @media only screen and (max-width: $S )
+    display: none
 
 
 
 // SECTION WT*-I-DO
 
 .what-I-do
-  background: $lightGrey
+  background: lighten($lightGrey, 20%)
+  +at-breakpoint($M)
+    +at-breakpoint($M)
+    background: $lightGrey url('../assets/img/multi-devices.png') -545% emCalc(120px) no-repeat
+
+.yep-I-do
+  +at-breakpoint($M)
+    +pre(5)
+    +span-columns(7, 12)
+
 
 
 // CONTACT
@@ -71,6 +127,9 @@ h2
 .contact
   background: $darkGrey
   text-align: center
+  @media only screen and (min-width: $M )
+    display: none
+
 
 .primary-contact
   list-style: none
@@ -105,6 +164,8 @@ $social-mobile-spacing: 10px
 
 .socialize
   background: $dark
+  @media only screen and (min-width: $M )
+    display: none
 
 .social
   list-style: none
@@ -123,6 +184,17 @@ $social-mobile-spacing: 10px
     width: 100%
     height: 100%
 
+
+// SAY HELLO
+
+.say-hello
+  @media only screen and (max-width: $S )
+    display: none
+
+.sayHi
+  list-style: none
+  padding: 0
+  margin: 0
 
 
 

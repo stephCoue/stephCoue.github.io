@@ -225,11 +225,12 @@ body {
   font-weight: 300;
   line-height: 1.5em;
   color: #151515;
+  background: whitesmoke;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
 }
 
-/* line 13, ../_sass/_base.sass */
+/* line 14, ../_sass/_base.sass */
 a {
   text-decoration: none;
   color: #151515;
@@ -239,26 +240,40 @@ a {
   -o-transition: color 0.5s ease;
   transition: color 0.5s ease;
 }
-/* line 18, ../_sass/_base.sass */
+/* line 19, ../_sass/_base.sass */
 a:hover {
   color: whitesmoke;
 }
-/* line 20, ../_sass/_base.sass */
+/* line 21, ../_sass/_base.sass */
 a:active {
   color: #656565;
 }
 
-/* line 23, ../_sass/_base.sass */
+/* line 24, ../_sass/_base.sass */
 ::-moz-selection {
   background: #151515;
   color: whitesmoke;
   text-shadow: none;
 }
 
-/* line 28, ../_sass/_base.sass */
+/* line 29, ../_sass/_base.sass */
 ::selection {
   background: #151515;
   color: whitesmoke;
+  text-shadow: none;
+}
+
+/* line 34, ../_sass/_base.sass */
+.top-header ::-moz-selection {
+  background: white;
+  color: #151515;
+  text-shadow: none;
+}
+
+/* line 39, ../_sass/_base.sass */
+.top-header ::selection {
+  background: white;
+  color: #151515;
   text-shadow: none;
 }
 
@@ -266,6 +281,30 @@ a:active {
 .container {
   width: 93.75%;
   margin: 0 auto;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(0%, rgba(100, 100, 225, 0.25)), color-stop(7.04225%, rgba(100, 100, 225, 0.25)), color-stop(7.04225%, rgba(0, 0, 0, 0)), color-stop(8.4507%, rgba(0, 0, 0, 0)), color-stop(8.4507%, rgba(100, 100, 225, 0.25)), color-stop(15.49296%, rgba(100, 100, 225, 0.25)), color-stop(15.49296%, rgba(0, 0, 0, 0)), color-stop(16.90141%, rgba(0, 0, 0, 0)), color-stop(16.90141%, rgba(100, 100, 225, 0.25)), color-stop(23.94366%, rgba(100, 100, 225, 0.25)), color-stop(23.94366%, rgba(0, 0, 0, 0)), color-stop(25.35211%, rgba(0, 0, 0, 0)), color-stop(25.35211%, rgba(100, 100, 225, 0.25)), color-stop(32.39437%, rgba(100, 100, 225, 0.25)), color-stop(32.39437%, rgba(0, 0, 0, 0)), color-stop(33.80282%, rgba(0, 0, 0, 0)), color-stop(33.80282%, rgba(100, 100, 225, 0.25)), color-stop(40.84507%, rgba(100, 100, 225, 0.25)), color-stop(40.84507%, rgba(0, 0, 0, 0)), color-stop(42.25352%, rgba(0, 0, 0, 0)), color-stop(42.25352%, rgba(100, 100, 225, 0.25)), color-stop(49.29577%, rgba(100, 100, 225, 0.25)), color-stop(49.29577%, rgba(0, 0, 0, 0)), color-stop(50.70423%, rgba(0, 0, 0, 0)), color-stop(50.70423%, rgba(100, 100, 225, 0.25)), color-stop(57.74648%, rgba(100, 100, 225, 0.25)), color-stop(57.74648%, rgba(0, 0, 0, 0)), color-stop(59.15493%, rgba(0, 0, 0, 0)), color-stop(59.15493%, rgba(100, 100, 225, 0.25)), color-stop(66.19718%, rgba(100, 100, 225, 0.25)), color-stop(66.19718%, rgba(0, 0, 0, 0)), color-stop(67.60563%, rgba(0, 0, 0, 0)), color-stop(67.60563%, rgba(100, 100, 225, 0.25)), color-stop(74.64789%, rgba(100, 100, 225, 0.25)), color-stop(74.64789%, rgba(0, 0, 0, 0)), color-stop(76.05634%, rgba(0, 0, 0, 0)), color-stop(76.05634%, rgba(100, 100, 225, 0.25)), color-stop(83.09859%, rgba(100, 100, 225, 0.25)), color-stop(83.09859%, rgba(0, 0, 0, 0)), color-stop(84.50704%, rgba(0, 0, 0, 0)), color-stop(84.50704%, rgba(100, 100, 225, 0.25)), color-stop(91.5493%, rgba(100, 100, 225, 0.25)), color-stop(91.5493%, rgba(0, 0, 0, 0)), color-stop(92.95775%, rgba(0, 0, 0, 0)), color-stop(92.95775%, rgba(100, 100, 225, 0.25)), color-stop(100.0%, rgba(100, 100, 225, 0.25)), color-stop(100.0%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0)));
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 7.04225%, rgba(0, 0, 0, 0) 7.04225%, rgba(0, 0, 0, 0) 8.4507%, rgba(100, 100, 225, 0.25) 8.4507%, rgba(100, 100, 225, 0.25) 15.49296%, rgba(0, 0, 0, 0) 15.49296%, rgba(0, 0, 0, 0) 16.90141%, rgba(100, 100, 225, 0.25) 16.90141%, rgba(100, 100, 225, 0.25) 23.94366%, rgba(0, 0, 0, 0) 23.94366%, rgba(0, 0, 0, 0) 25.35211%, rgba(100, 100, 225, 0.25) 25.35211%, rgba(100, 100, 225, 0.25) 32.39437%, rgba(0, 0, 0, 0) 32.39437%, rgba(0, 0, 0, 0) 33.80282%, rgba(100, 100, 225, 0.25) 33.80282%, rgba(100, 100, 225, 0.25) 40.84507%, rgba(0, 0, 0, 0) 40.84507%, rgba(0, 0, 0, 0) 42.25352%, rgba(100, 100, 225, 0.25) 42.25352%, rgba(100, 100, 225, 0.25) 49.29577%, rgba(0, 0, 0, 0) 49.29577%, rgba(0, 0, 0, 0) 50.70423%, rgba(100, 100, 225, 0.25) 50.70423%, rgba(100, 100, 225, 0.25) 57.74648%, rgba(0, 0, 0, 0) 57.74648%, rgba(0, 0, 0, 0) 59.15493%, rgba(100, 100, 225, 0.25) 59.15493%, rgba(100, 100, 225, 0.25) 66.19718%, rgba(0, 0, 0, 0) 66.19718%, rgba(0, 0, 0, 0) 67.60563%, rgba(100, 100, 225, 0.25) 67.60563%, rgba(100, 100, 225, 0.25) 74.64789%, rgba(0, 0, 0, 0) 74.64789%, rgba(0, 0, 0, 0) 76.05634%, rgba(100, 100, 225, 0.25) 76.05634%, rgba(100, 100, 225, 0.25) 83.09859%, rgba(0, 0, 0, 0) 83.09859%, rgba(0, 0, 0, 0) 84.50704%, rgba(100, 100, 225, 0.25) 84.50704%, rgba(100, 100, 225, 0.25) 91.5493%, rgba(0, 0, 0, 0) 91.5493%, rgba(0, 0, 0, 0) 92.95775%, rgba(100, 100, 225, 0.25) 92.95775%, rgba(100, 100, 225, 0.25) 100.0%, rgba(0, 0, 0, 0) 100.0%, rgba(0, 0, 0, 0) 100%);
+  background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 7.04225%, rgba(0, 0, 0, 0) 7.04225%, rgba(0, 0, 0, 0) 8.4507%, rgba(100, 100, 225, 0.25) 8.4507%, rgba(100, 100, 225, 0.25) 15.49296%, rgba(0, 0, 0, 0) 15.49296%, rgba(0, 0, 0, 0) 16.90141%, rgba(100, 100, 225, 0.25) 16.90141%, rgba(100, 100, 225, 0.25) 23.94366%, rgba(0, 0, 0, 0) 23.94366%, rgba(0, 0, 0, 0) 25.35211%, rgba(100, 100, 225, 0.25) 25.35211%, rgba(100, 100, 225, 0.25) 32.39437%, rgba(0, 0, 0, 0) 32.39437%, rgba(0, 0, 0, 0) 33.80282%, rgba(100, 100, 225, 0.25) 33.80282%, rgba(100, 100, 225, 0.25) 40.84507%, rgba(0, 0, 0, 0) 40.84507%, rgba(0, 0, 0, 0) 42.25352%, rgba(100, 100, 225, 0.25) 42.25352%, rgba(100, 100, 225, 0.25) 49.29577%, rgba(0, 0, 0, 0) 49.29577%, rgba(0, 0, 0, 0) 50.70423%, rgba(100, 100, 225, 0.25) 50.70423%, rgba(100, 100, 225, 0.25) 57.74648%, rgba(0, 0, 0, 0) 57.74648%, rgba(0, 0, 0, 0) 59.15493%, rgba(100, 100, 225, 0.25) 59.15493%, rgba(100, 100, 225, 0.25) 66.19718%, rgba(0, 0, 0, 0) 66.19718%, rgba(0, 0, 0, 0) 67.60563%, rgba(100, 100, 225, 0.25) 67.60563%, rgba(100, 100, 225, 0.25) 74.64789%, rgba(0, 0, 0, 0) 74.64789%, rgba(0, 0, 0, 0) 76.05634%, rgba(100, 100, 225, 0.25) 76.05634%, rgba(100, 100, 225, 0.25) 83.09859%, rgba(0, 0, 0, 0) 83.09859%, rgba(0, 0, 0, 0) 84.50704%, rgba(100, 100, 225, 0.25) 84.50704%, rgba(100, 100, 225, 0.25) 91.5493%, rgba(0, 0, 0, 0) 91.5493%, rgba(0, 0, 0, 0) 92.95775%, rgba(100, 100, 225, 0.25) 92.95775%, rgba(100, 100, 225, 0.25) 100.0%, rgba(0, 0, 0, 0) 100.0%, rgba(0, 0, 0, 0) 100%);
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 7.04225%, rgba(0, 0, 0, 0) 7.04225%, rgba(0, 0, 0, 0) 8.4507%, rgba(100, 100, 225, 0.25) 8.4507%, rgba(100, 100, 225, 0.25) 15.49296%, rgba(0, 0, 0, 0) 15.49296%, rgba(0, 0, 0, 0) 16.90141%, rgba(100, 100, 225, 0.25) 16.90141%, rgba(100, 100, 225, 0.25) 23.94366%, rgba(0, 0, 0, 0) 23.94366%, rgba(0, 0, 0, 0) 25.35211%, rgba(100, 100, 225, 0.25) 25.35211%, rgba(100, 100, 225, 0.25) 32.39437%, rgba(0, 0, 0, 0) 32.39437%, rgba(0, 0, 0, 0) 33.80282%, rgba(100, 100, 225, 0.25) 33.80282%, rgba(100, 100, 225, 0.25) 40.84507%, rgba(0, 0, 0, 0) 40.84507%, rgba(0, 0, 0, 0) 42.25352%, rgba(100, 100, 225, 0.25) 42.25352%, rgba(100, 100, 225, 0.25) 49.29577%, rgba(0, 0, 0, 0) 49.29577%, rgba(0, 0, 0, 0) 50.70423%, rgba(100, 100, 225, 0.25) 50.70423%, rgba(100, 100, 225, 0.25) 57.74648%, rgba(0, 0, 0, 0) 57.74648%, rgba(0, 0, 0, 0) 59.15493%, rgba(100, 100, 225, 0.25) 59.15493%, rgba(100, 100, 225, 0.25) 66.19718%, rgba(0, 0, 0, 0) 66.19718%, rgba(0, 0, 0, 0) 67.60563%, rgba(100, 100, 225, 0.25) 67.60563%, rgba(100, 100, 225, 0.25) 74.64789%, rgba(0, 0, 0, 0) 74.64789%, rgba(0, 0, 0, 0) 76.05634%, rgba(100, 100, 225, 0.25) 76.05634%, rgba(100, 100, 225, 0.25) 83.09859%, rgba(0, 0, 0, 0) 83.09859%, rgba(0, 0, 0, 0) 84.50704%, rgba(100, 100, 225, 0.25) 84.50704%, rgba(100, 100, 225, 0.25) 91.5493%, rgba(0, 0, 0, 0) 91.5493%, rgba(0, 0, 0, 0) 92.95775%, rgba(100, 100, 225, 0.25) 92.95775%, rgba(100, 100, 225, 0.25) 100.0%, rgba(0, 0, 0, 0) 100.0%, rgba(0, 0, 0, 0) 100%);
+  background-image: linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 7.04225%, rgba(0, 0, 0, 0) 7.04225%, rgba(0, 0, 0, 0) 8.4507%, rgba(100, 100, 225, 0.25) 8.4507%, rgba(100, 100, 225, 0.25) 15.49296%, rgba(0, 0, 0, 0) 15.49296%, rgba(0, 0, 0, 0) 16.90141%, rgba(100, 100, 225, 0.25) 16.90141%, rgba(100, 100, 225, 0.25) 23.94366%, rgba(0, 0, 0, 0) 23.94366%, rgba(0, 0, 0, 0) 25.35211%, rgba(100, 100, 225, 0.25) 25.35211%, rgba(100, 100, 225, 0.25) 32.39437%, rgba(0, 0, 0, 0) 32.39437%, rgba(0, 0, 0, 0) 33.80282%, rgba(100, 100, 225, 0.25) 33.80282%, rgba(100, 100, 225, 0.25) 40.84507%, rgba(0, 0, 0, 0) 40.84507%, rgba(0, 0, 0, 0) 42.25352%, rgba(100, 100, 225, 0.25) 42.25352%, rgba(100, 100, 225, 0.25) 49.29577%, rgba(0, 0, 0, 0) 49.29577%, rgba(0, 0, 0, 0) 50.70423%, rgba(100, 100, 225, 0.25) 50.70423%, rgba(100, 100, 225, 0.25) 57.74648%, rgba(0, 0, 0, 0) 57.74648%, rgba(0, 0, 0, 0) 59.15493%, rgba(100, 100, 225, 0.25) 59.15493%, rgba(100, 100, 225, 0.25) 66.19718%, rgba(0, 0, 0, 0) 66.19718%, rgba(0, 0, 0, 0) 67.60563%, rgba(100, 100, 225, 0.25) 67.60563%, rgba(100, 100, 225, 0.25) 74.64789%, rgba(0, 0, 0, 0) 74.64789%, rgba(0, 0, 0, 0) 76.05634%, rgba(100, 100, 225, 0.25) 76.05634%, rgba(100, 100, 225, 0.25) 83.09859%, rgba(0, 0, 0, 0) 83.09859%, rgba(0, 0, 0, 0) 84.50704%, rgba(100, 100, 225, 0.25) 84.50704%, rgba(100, 100, 225, 0.25) 91.5493%, rgba(0, 0, 0, 0) 91.5493%, rgba(0, 0, 0, 0) 92.95775%, rgba(100, 100, 225, 0.25) 92.95775%, rgba(100, 100, 225, 0.25) 100.0%, rgba(0, 0, 0, 0) 100.0%, rgba(0, 0, 0, 0) 100%);
+  background-position: left top;
+  -webkit-background-origin: content;
+  -moz-background-origin: content;
+  -ms-background-origin: content-box;
+  -o-background-origin: content-box;
+  background-origin: content-box;
+  -webkit-background-clip: content-box;
+  -moz-background-clip: content-box;
+  background-clip: content-box;
+}
+/* line 38, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 /* line 9, ../_sass/_theme.sass */
@@ -273,28 +312,53 @@ header,
 section {
   padding: 3.75em 0;
 }
+@media (min-width: 62em) {
+  /* line 9, ../_sass/_theme.sass */
+  header,
+  section {
+    padding: 7.5em 0;
+  }
+}
 
-/* line 13, ../_sass/_theme.sass */
+/* line 16, ../_sass/_theme.sass */
 h2 {
   font-size: 1.875em;
   font-weight: 100;
   margin: 0;
 }
 
-/* line 20, ../_sass/_theme.sass */
+/* line 23, ../_sass/_theme.sass */
 .top-header {
   color: whitesmoke;
   background: #151515;
 }
+@media (min-width: 62em) {
+  /* line 23, ../_sass/_theme.sass */
+  .top-header {
+    background: #b4b4b4 url("../assets/img/BG-header-portrait-detoure.png") 168% 1em no-repeat;
+  }
+}
+@media (min-width: 75em) {
+  /* line 23, ../_sass/_theme.sass */
+  .top-header {
+    background-position: right 1em;
+  }
+}
 
-/* line 25, ../_sass/_theme.sass */
+/* line 31, ../_sass/_theme.sass */
 .portrait {
   width: 40%;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 1.875em;
 }
-/* line 30, ../_sass/_theme.sass */
+@media only screen and (min-width: 62em) {
+  /* line 31, ../_sass/_theme.sass */
+  .portrait {
+    display: none;
+  }
+}
+/* line 39, ../_sass/_theme.sass */
 .portrait img {
   max-width: 100%;
   height: auto;
@@ -306,75 +370,169 @@ h2 {
   transform: translateX(-50%);
 }
 
-/* line 37, ../_sass/_theme.sass */
+/* line 46, ../_sass/_theme.sass */
 .title {
   text-align: center;
 }
-/* line 39, ../_sass/_theme.sass */
+@media (min-width: 62em) {
+  /* line 46, ../_sass/_theme.sass */
+  .title {
+    width: 32.39437%;
+    float: left;
+    margin-right: 1.40845%;
+    margin-right: 73.84615%;
+    text-align: left;
+    margin-bottom: 9em;
+  }
+}
+@media (min-width: 62em) {
+  /* line 54, ../_sass/_theme.sass */
+  .title .container {
+    margin-bottom: 0;
+  }
+}
+/* line 58, ../_sass/_theme.sass */
 .title h1 {
   font-size: 2.25em;
   margin: 0;
 }
-/* line 42, ../_sass/_theme.sass */
+@media (min-width: 62em) {
+  /* line 58, ../_sass/_theme.sass */
+  .title h1 {
+    font-size: 2.39583em;
+    margin: 0;
+  }
+}
+/* line 64, ../_sass/_theme.sass */
 .title h2 {
   font-size: 1.125em;
   margin-top: 0.75em;
   margin-bottom: 3.75em;
   font-weight: bold;
 }
+@media (min-width: 62em) {
+  /* line 64, ../_sass/_theme.sass */
+  .title h2 {
+    font-size: 1.5em;
+    margin-left: 0.6em;
+    margin-bottom: 0;
+  }
+}
 
-/* line 50, ../_sass/_theme.sass */
+@media (min-width: 62em) {
+  /* line 75, ../_sass/_theme.sass */
+  .intro {
+    width: 57.74648%;
+    float: left;
+    margin-right: 1.40845%;
+    margin-right: 46.15385%;
+    margin-bottom: 2.5em;
+  }
+}
+/* line 81, ../_sass/_theme.sass */
 .intro em {
   font-style: normal;
   font-size: 3em;
   font-weight: 100;
 }
-/* line 54, ../_sass/_theme.sass */
+@media (min-width: 62em) {
+  /* line 81, ../_sass/_theme.sass */
+  .intro em {
+    font-size: 4.5em;
+  }
+}
+/* line 87, ../_sass/_theme.sass */
 .intro p {
   font-size: 1.25em;
   line-height: 1.5;
 }
-/* line 57, ../_sass/_theme.sass */
+@media (min-width: 62em) {
+  /* line 87, ../_sass/_theme.sass */
+  .intro p {
+    font-size: 1.375em;
+    margin-top: 2em;
+  }
+}
+/* line 93, ../_sass/_theme.sass */
 .intro ins {
   text-decoration: none;
 }
 
-/* line 65, ../_sass/_theme.sass */
-.what-I-do {
-  background: #b4b4b4;
+/* line 99, ../_sass/_theme.sass */
+.big-icons {
+  height: 414px;
+}
+@media (min-width: 62em) {
+  /* line 99, ../_sass/_theme.sass */
+  .big-icons {
+    background: red;
+  }
+}
+@media only screen and (max-width: 61.9375em) {
+  /* line 99, ../_sass/_theme.sass */
+  .big-icons {
+    display: none;
+  }
 }
 
-/* line 71, ../_sass/_theme.sass */
+/* line 112, ../_sass/_theme.sass */
+.what-I-do {
+  background: #e7e7e7;
+}
+@media (min-width: 62em) {
+  /* line 112, ../_sass/_theme.sass */
+  .what-I-do {
+    background: #b4b4b4 url("../assets/img/multi-devices.png") -545% 7.5em no-repeat;
+  }
+}
+
+@media (min-width: 62em) {
+  /* line 118, ../_sass/_theme.sass */
+  .yep-I-do {
+    margin-left: 46.15385%;
+    width: 57.74648%;
+    float: left;
+    margin-right: 1.40845%;
+  }
+}
+
+/* line 127, ../_sass/_theme.sass */
 .contact {
   background: #656565;
   text-align: center;
 }
+@media only screen and (min-width: 62em) {
+  /* line 127, ../_sass/_theme.sass */
+  .contact {
+    display: none;
+  }
+}
 
-/* line 75, ../_sass/_theme.sass */
+/* line 134, ../_sass/_theme.sass */
 .primary-contact {
   list-style: none;
   padding: 0;
   font-size: 1.25em;
   margin-bottom: 0;
 }
-/* line 80, ../_sass/_theme.sass */
+/* line 139, ../_sass/_theme.sass */
 .primary-contact li {
   padding: 0.3em 0.4em;
   font-weight: 700;
 }
-/* line 83, ../_sass/_theme.sass */
+/* line 142, ../_sass/_theme.sass */
 .primary-contact a {
   padding: 0.4em 1em;
 }
 
 /* line 154, social-mobile/*.png */
 .social-mobile-sprite, .social-mobile-github, .social-mobile-gplus, .social-mobile-lanyrd, .social-mobile-linkedin, .social-mobile-viadeo {
-  background: url('../assets/img/social-mobile-sed7ce95a67.png') no-repeat;
+  background: url('../assets/img/social-mobile-s53f8bd461e.png') no-repeat;
 }
 
 /* line 60, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .social-mobile-github {
-  background-position: 0 -348px;
+  background-position: 0 -406px;
   height: 48px;
   width: 55px;
 }
@@ -384,18 +542,18 @@ h2 {
 }
 /* line 43, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .social-mobile-github:active, .social-mobile-github.github_active, .social-mobile-github.github-active {
-  background-position: 0 -406px;
+  background-position: 0 -348px;
 }
 
 /* line 60, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .social-mobile-gplus {
-  background-position: 0 -290px;
+  background-position: 0 -232px;
   height: 48px;
   width: 49px;
 }
 /* line 43, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .social-mobile-gplus:hover, .social-mobile-gplus.gplus_hover, .social-mobile-gplus.gplus-hover {
-  background-position: 0 -232px;
+  background-position: 0 -290px;
 }
 /* line 43, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .social-mobile-gplus:active, .social-mobile-gplus.gplus_active, .social-mobile-gplus.gplus-active {
@@ -425,31 +583,31 @@ h2 {
 }
 /* line 43, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .social-mobile-linkedin:hover, .social-mobile-linkedin.linkedin_hover, .social-mobile-linkedin.linkedin-hover {
-  background-position: 0 -812px;
+  background-position: 0 -696px;
 }
 /* line 43, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .social-mobile-linkedin:active, .social-mobile-linkedin.linkedin_active, .social-mobile-linkedin.linkedin-active {
-  background-position: 0 -696px;
+  background-position: 0 -812px;
 }
 
 /* line 60, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .social-mobile-viadeo {
-  background-position: 0 -58px;
+  background-position: 0 0;
   height: 48px;
   width: 42px;
 }
 /* line 43, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .social-mobile-viadeo:hover, .social-mobile-viadeo.viadeo_hover, .social-mobile-viadeo.viadeo-hover {
-  background-position: 0 -116px;
+  background-position: 0 -58px;
 }
 /* line 43, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .social-mobile-viadeo:active, .social-mobile-viadeo.viadeo_active, .social-mobile-viadeo.viadeo-active {
-  background-position: 0 0;
+  background-position: 0 -116px;
 }
 
 /* line 60, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .social-mobile-github {
-  background-position: 0 -348px;
+  background-position: 0 -406px;
 }
 /* line 43, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .social-mobile-github:hover, .social-mobile-github.github_hover, .social-mobile-github.github-hover {
@@ -457,16 +615,16 @@ h2 {
 }
 /* line 43, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .social-mobile-github:active, .social-mobile-github.github_active, .social-mobile-github.github-active {
-  background-position: 0 -406px;
+  background-position: 0 -348px;
 }
 
 /* line 60, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .social-mobile-gplus {
-  background-position: 0 -290px;
+  background-position: 0 -232px;
 }
 /* line 43, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .social-mobile-gplus:hover, .social-mobile-gplus.gplus_hover, .social-mobile-gplus.gplus-hover {
-  background-position: 0 -232px;
+  background-position: 0 -290px;
 }
 /* line 43, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .social-mobile-gplus:active, .social-mobile-gplus.gplus_active, .social-mobile-gplus.gplus-active {
@@ -492,38 +650,44 @@ h2 {
 }
 /* line 43, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .social-mobile-linkedin:hover, .social-mobile-linkedin.linkedin_hover, .social-mobile-linkedin.linkedin-hover {
-  background-position: 0 -812px;
+  background-position: 0 -696px;
 }
 /* line 43, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .social-mobile-linkedin:active, .social-mobile-linkedin.linkedin_active, .social-mobile-linkedin.linkedin-active {
-  background-position: 0 -696px;
+  background-position: 0 -812px;
 }
 
 /* line 60, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .social-mobile-viadeo {
-  background-position: 0 -58px;
+  background-position: 0 0;
 }
 /* line 43, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .social-mobile-viadeo:hover, .social-mobile-viadeo.viadeo_hover, .social-mobile-viadeo.viadeo-hover {
-  background-position: 0 -116px;
+  background-position: 0 -58px;
 }
 /* line 43, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .social-mobile-viadeo:active, .social-mobile-viadeo.viadeo_active, .social-mobile-viadeo.viadeo-active {
-  background-position: 0 0;
+  background-position: 0 -116px;
 }
 
-/* line 106, ../_sass/_theme.sass */
+/* line 165, ../_sass/_theme.sass */
 .socialize {
   background: #151515;
 }
+@media only screen and (min-width: 62em) {
+  /* line 165, ../_sass/_theme.sass */
+  .socialize {
+    display: none;
+  }
+}
 
-/* line 109, ../_sass/_theme.sass */
+/* line 170, ../_sass/_theme.sass */
 .social {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-/* line 114, ../_sass/_theme.sass */
+/* line 175, ../_sass/_theme.sass */
 .social li {
   display: inline-block;
   font: 0/0 a;
@@ -533,26 +697,40 @@ h2 {
   border: 0;
   margin-right: 3.2%;
 }
-/* line 118, ../_sass/_theme.sass */
+/* line 179, ../_sass/_theme.sass */
 .social li:last-child {
   margin-right: 0;
 }
-/* line 121, ../_sass/_theme.sass */
+/* line 182, ../_sass/_theme.sass */
 .social a {
   display: block;
   width: 100%;
   height: 100%;
 }
 
-/* line 131, ../_sass/_theme.sass */
+@media only screen and (max-width: 61.9375em) {
+  /* line 190, ../_sass/_theme.sass */
+  .say-hello {
+    display: none;
+  }
+}
+
+/* line 194, ../_sass/_theme.sass */
+.sayHi {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 203, ../_sass/_theme.sass */
 footer {
   font-size: 0.8em;
 }
-/* line 134, ../_sass/_theme.sass */
+/* line 206, ../_sass/_theme.sass */
 footer a:hover {
   color: #b4b4b4;
 }
-/* line 136, ../_sass/_theme.sass */
+/* line 208, ../_sass/_theme.sass */
 footer a:active {
   color: #656565;
 }
