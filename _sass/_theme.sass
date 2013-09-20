@@ -4,7 +4,7 @@
   width: 93.75%
   margin: 0 auto
   +container
-  +susy-grid-background
+  // +susy-grid-background
 
 header,
 section
@@ -103,15 +103,14 @@ h2
 .big-icons
   height: emCalc(296px)
   background: $nearlyWhite
+  padding-top: emCalc(60px)
 
   .container
-    height: 100%
-    padding-top: emCalc(60px)
+    height: inherit
     background-image: url('../assets/img/contact-desktop/css3.png'), url('../assets/img/contact-desktop/semantic.png'), url('../assets/img/contact-desktop/html5.png') , url('../assets/img/contact-desktop/js.png')
     background-position: 0 30px, 32% 0, 64% 0, 100% 0
 
     background-repeat: no-repeat
-
 
 
   @media only screen and (max-width: $S )
@@ -167,17 +166,6 @@ $social-mobile-spacing: 10px
 @include all-social-mobile-sprites(true)
 +all-social-mobile-sprites
 
-// $height : social-mobile-sprite-height
-// $width : social-mobile-sprite-width
-// .linkedin
-//   // @include social-mobile(linkedin)
-//   width: $width
-//   height: $height
-//   &:hover
-//     // @include social-mobile(linkedin_hover)
-//   &:active
-//     // @include social-mobile(linkedin_active)
-
 .socialize
   background: $dark
   @media only screen and (min-width: $M )
@@ -223,8 +211,6 @@ $social-mobile-spacing: 10px
 
 +font-face("fontello", font-files("fontello.woff", "fontello.ttf", "fontello.svg", "fontello.eot" ))
 
-//
-
 
 .sayHi
   list-style: none
@@ -232,39 +218,38 @@ $social-mobile-spacing: 10px
   margin: 0
 
   li
-    // font-family: "fontello"
-    // font-style: normal
-    // speak: none
-    // font-size: 3em
+    display: inline
+    margin-right: .6%
+
+    &:last-child
+      margin-right: 0
+
+  a
     display: inline-block
     position: relative
     width: emCalc(120px)
     height: emCalc(120px)
-    background: green
-    // +hide-text()
-    margin-right: 3.2% // 3%
-    &:last-child
-      margin-right: 0
+    background: $lightGrey
+    &:hover
+      background: $dark
 
-  // a
-  //   display: block
-  //   width: 100%
-  //   height: 100%
 
-  a
-    +hide-text()
-    display: block
-    width: 100%
-    height: 100%
 
-.contact-desktop
+.icon
+  display: inline-block
+  font-size: 4em
+  position: absolute
+  top: 50%
+  left: 50%
+  margin-top: -16px
+  margin-left: -32px
+
   &:after
     font-family: "fontello"
     speak: none
-    font-size: 4em
-    width: 1em
-    position: absolute
-    top: 0
+    text-transform: none
+    -webkit-font-smoothing: antialiased
+
 
 .email
   &:after
