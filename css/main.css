@@ -326,26 +326,34 @@ h2 {
   font-weight: 100;
   margin: 0;
 }
+@media (min-width: 62em) {
+  /* line 16, ../_sass/_theme.sass */
+  h2 {
+    font-size: 4.5em;
+    margin-top: 16px;
+    margin-bottom: 1em;
+  }
+}
 
-/* line 23, ../_sass/_theme.sass */
+/* line 27, ../_sass/_theme.sass */
 .top-header {
   color: whitesmoke;
   background: #151515;
 }
 @media (min-width: 62em) {
-  /* line 23, ../_sass/_theme.sass */
+  /* line 27, ../_sass/_theme.sass */
   .top-header {
     background: #b4b4b4 url("../assets/img/BG-header-portrait-detoure.png") 168% 1em no-repeat;
   }
 }
 @media (min-width: 75em) {
-  /* line 23, ../_sass/_theme.sass */
+  /* line 27, ../_sass/_theme.sass */
   .top-header {
     background-position: right 1em;
   }
 }
 
-/* line 31, ../_sass/_theme.sass */
+/* line 35, ../_sass/_theme.sass */
 .portrait {
   width: 40%;
   margin-left: auto;
@@ -353,12 +361,12 @@ h2 {
   margin-bottom: 1.875em;
 }
 @media only screen and (min-width: 62em) {
-  /* line 31, ../_sass/_theme.sass */
+  /* line 35, ../_sass/_theme.sass */
   .portrait {
     display: none;
   }
 }
-/* line 39, ../_sass/_theme.sass */
+/* line 43, ../_sass/_theme.sass */
 .portrait img {
   max-width: 100%;
   height: auto;
@@ -370,12 +378,12 @@ h2 {
   transform: translateX(-50%);
 }
 
-/* line 46, ../_sass/_theme.sass */
+/* line 50, ../_sass/_theme.sass */
 .title {
   text-align: center;
 }
 @media (min-width: 62em) {
-  /* line 46, ../_sass/_theme.sass */
+  /* line 50, ../_sass/_theme.sass */
   .title {
     width: 32.39437%;
     float: left;
@@ -386,24 +394,24 @@ h2 {
   }
 }
 @media (min-width: 62em) {
-  /* line 54, ../_sass/_theme.sass */
+  /* line 58, ../_sass/_theme.sass */
   .title .container {
     margin-bottom: 0;
   }
 }
-/* line 58, ../_sass/_theme.sass */
+/* line 62, ../_sass/_theme.sass */
 .title h1 {
   font-size: 2.25em;
   margin: 0;
 }
 @media (min-width: 62em) {
-  /* line 58, ../_sass/_theme.sass */
+  /* line 62, ../_sass/_theme.sass */
   .title h1 {
     font-size: 2.39583em;
     margin: 0;
   }
 }
-/* line 64, ../_sass/_theme.sass */
+/* line 68, ../_sass/_theme.sass */
 .title h2 {
   font-size: 1.125em;
   margin-top: 0.75em;
@@ -411,7 +419,7 @@ h2 {
   font-weight: bold;
 }
 @media (min-width: 62em) {
-  /* line 64, ../_sass/_theme.sass */
+  /* line 68, ../_sass/_theme.sass */
   .title h2 {
     font-size: 1.5em;
     margin-left: 0.6em;
@@ -420,7 +428,7 @@ h2 {
 }
 
 @media (min-width: 62em) {
-  /* line 75, ../_sass/_theme.sass */
+  /* line 79, ../_sass/_theme.sass */
   .intro {
     width: 57.74648%;
     float: left;
@@ -429,65 +437,70 @@ h2 {
     margin-bottom: 2.5em;
   }
 }
-/* line 81, ../_sass/_theme.sass */
+/* line 85, ../_sass/_theme.sass */
 .intro em {
   font-style: normal;
   font-size: 3em;
   font-weight: 100;
 }
 @media (min-width: 62em) {
-  /* line 81, ../_sass/_theme.sass */
+  /* line 85, ../_sass/_theme.sass */
   .intro em {
     font-size: 4.5em;
   }
 }
-/* line 87, ../_sass/_theme.sass */
+/* line 91, ../_sass/_theme.sass */
 .intro p {
   font-size: 1.25em;
   line-height: 1.5;
 }
 @media (min-width: 62em) {
-  /* line 87, ../_sass/_theme.sass */
+  /* line 91, ../_sass/_theme.sass */
   .intro p {
     font-size: 1.375em;
     margin-top: 2em;
   }
 }
-/* line 93, ../_sass/_theme.sass */
+/* line 97, ../_sass/_theme.sass */
 .intro ins {
   text-decoration: none;
 }
 
-/* line 99, ../_sass/_theme.sass */
+/* line 103, ../_sass/_theme.sass */
 .big-icons {
   height: 414px;
-}
-@media (min-width: 62em) {
-  /* line 99, ../_sass/_theme.sass */
-  .big-icons {
-    background: red;
-  }
+  background: whitesmoke;
 }
 @media only screen and (max-width: 61.9375em) {
-  /* line 99, ../_sass/_theme.sass */
+  /* line 103, ../_sass/_theme.sass */
   .big-icons {
     display: none;
   }
 }
 
-/* line 112, ../_sass/_theme.sass */
+/* line 114, ../_sass/_theme.sass */
 .what-I-do {
   background: #e7e7e7;
 }
 @media (min-width: 62em) {
-  /* line 112, ../_sass/_theme.sass */
+  /* line 114, ../_sass/_theme.sass */
   .what-I-do {
-    background: #b4b4b4 url("../assets/img/multi-devices.png") -545% 7.5em no-repeat;
+    background: #e7e7e7 url("../assets/img/multi-devices.png") -33em 7.5em no-repeat;
+  }
+}
+@media (min-width: 75em) {
+  /* line 114, ../_sass/_theme.sass */
+  .what-I-do {
+    background-position: -26em 7.5em;
   }
 }
 
+/* line 122, ../_sass/_theme.sass */
+.yep-I-do {
+  margin-bottom: 4em;
+}
 @media (min-width: 62em) {
-  /* line 118, ../_sass/_theme.sass */
+  /* line 122, ../_sass/_theme.sass */
   .yep-I-do {
     margin-left: 46.15385%;
     width: 57.74648%;
@@ -496,31 +509,31 @@ h2 {
   }
 }
 
-/* line 127, ../_sass/_theme.sass */
+/* line 132, ../_sass/_theme.sass */
 .contact {
   background: #656565;
   text-align: center;
 }
 @media only screen and (min-width: 62em) {
-  /* line 127, ../_sass/_theme.sass */
+  /* line 132, ../_sass/_theme.sass */
   .contact {
     display: none;
   }
 }
 
-/* line 134, ../_sass/_theme.sass */
+/* line 139, ../_sass/_theme.sass */
 .primary-contact {
   list-style: none;
   padding: 0;
   font-size: 1.25em;
   margin-bottom: 0;
 }
-/* line 139, ../_sass/_theme.sass */
+/* line 144, ../_sass/_theme.sass */
 .primary-contact li {
   padding: 0.3em 0.4em;
   font-weight: 700;
 }
-/* line 142, ../_sass/_theme.sass */
+/* line 147, ../_sass/_theme.sass */
 .primary-contact a {
   padding: 0.4em 1em;
 }
@@ -670,24 +683,24 @@ h2 {
   background-position: 0 -116px;
 }
 
-/* line 165, ../_sass/_theme.sass */
+/* line 170, ../_sass/_theme.sass */
 .socialize {
   background: #151515;
 }
 @media only screen and (min-width: 62em) {
-  /* line 165, ../_sass/_theme.sass */
+  /* line 170, ../_sass/_theme.sass */
   .socialize {
     display: none;
   }
 }
 
-/* line 170, ../_sass/_theme.sass */
+/* line 175, ../_sass/_theme.sass */
 .social {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-/* line 175, ../_sass/_theme.sass */
+/* line 180, ../_sass/_theme.sass */
 .social li {
   display: inline-block;
   font: 0/0 a;
@@ -697,40 +710,318 @@ h2 {
   border: 0;
   margin-right: 3.2%;
 }
-/* line 179, ../_sass/_theme.sass */
+/* line 184, ../_sass/_theme.sass */
 .social li:last-child {
   margin-right: 0;
 }
-/* line 182, ../_sass/_theme.sass */
+/* line 187, ../_sass/_theme.sass */
 .social a {
   display: block;
   width: 100%;
   height: 100%;
 }
 
+/* line 196, ../_sass/_theme.sass */
+.say-hello p {
+  font-weight: 100;
+  margin-bottom: 7.5em;
+}
+/* line 199, ../_sass/_theme.sass */
+.say-hello em {
+  font-style: normal;
+}
 @media only screen and (max-width: 61.9375em) {
-  /* line 190, ../_sass/_theme.sass */
+  /* line 195, ../_sass/_theme.sass */
   .say-hello {
     display: none;
   }
 }
 
-/* line 194, ../_sass/_theme.sass */
+/* line 234, contact-desktop/*.png */
+.contact-desktop-sprite, .contact-desktop-css3, .contact-desktop-email, .contact-desktop-github, .contact-desktop-gplus, .contact-desktop-html5, .contact-desktop-js, .contact-desktop-lanyrd, .contact-desktop-linkedin, .contact-desktop-semantic, .contact-desktop-twitter, .contact-desktop-viadeo {
+  background: url('../assets/img/contact-desktop-s3da871b082.png') no-repeat;
+}
+
+/* line 60, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.contact-desktop-css3 {
+  background-position: 0 -522px;
+  height: 170px;
+  width: 188px;
+}
+
+/* line 60, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.contact-desktop-email {
+  background-position: 0 -1085px;
+  height: 39px;
+  width: 52px;
+}
+/* line 43, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.contact-desktop-email:hover, .contact-desktop-email.email_hover, .contact-desktop-email.email-hover {
+  background-position: 0 -1046px;
+}
+/* line 43, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.contact-desktop-email:active, .contact-desktop-email.email_active, .contact-desktop-email.email-active {
+  background-position: 0 -1162px;
+}
+
+/* line 60, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.contact-desktop-github {
+  background-position: 0 -926px;
+  height: 40px;
+  width: 46px;
+}
+/* line 43, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.contact-desktop-github:hover, .contact-desktop-github.github_hover, .contact-desktop-github.github-hover {
+  background-position: 0 -1006px;
+}
+/* line 43, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.contact-desktop-github:active, .contact-desktop-github.github_active, .contact-desktop-github.github-active {
+  background-position: 0 -966px;
+}
+
+/* line 60, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.contact-desktop-gplus {
+  background-position: 0 -850px;
+  height: 38px;
+  width: 40px;
+}
+/* line 43, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.contact-desktop-gplus:hover, .contact-desktop-gplus.gplus_hover, .contact-desktop-gplus.gplus-hover {
+  background-position: 0 -888px;
+}
+/* line 43, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.contact-desktop-gplus:active, .contact-desktop-gplus.gplus_active, .contact-desktop-gplus.gplus-active {
+  background-position: 0 -812px;
+}
+
+/* line 60, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.contact-desktop-html5 {
+  background-position: 0 -171px;
+  height: 175px;
+  width: 154px;
+}
+
+/* line 60, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.contact-desktop-js {
+  background-position: 0 0;
+  height: 171px;
+  width: 241px;
+}
+
+/* line 60, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.contact-desktop-lanyrd {
+  background-position: 0 -1277px;
+  height: 40px;
+  width: 38px;
+}
+/* line 43, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.contact-desktop-lanyrd:hover, .contact-desktop-lanyrd.lanyrd_hover, .contact-desktop-lanyrd.lanyrd-hover {
+  background-position: 0 -1357px;
+}
+/* line 43, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.contact-desktop-lanyrd:active, .contact-desktop-lanyrd.lanyrd_active, .contact-desktop-lanyrd.lanyrd-active {
+  background-position: 0 -1317px;
+}
+
+/* line 60, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.contact-desktop-linkedin {
+  background-position: 0 -1397px;
+  height: 40px;
+  width: 40px;
+}
+/* line 43, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.contact-desktop-linkedin:hover, .contact-desktop-linkedin.linkedin_hover, .contact-desktop-linkedin.linkedin-hover {
+  background-position: 0 -1477px;
+}
+/* line 43, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.contact-desktop-linkedin:active, .contact-desktop-linkedin.linkedin_active, .contact-desktop-linkedin.linkedin-active {
+  background-position: 0 -1437px;
+}
+
+/* line 60, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.contact-desktop-semantic {
+  background-position: 0 -346px;
+  height: 176px;
+  width: 176px;
+}
+
+/* line 60, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.contact-desktop-twitter {
+  background-position: 0 -1201px;
+  height: 38px;
+  width: 48px;
+}
+/* line 43, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.contact-desktop-twitter:hover, .contact-desktop-twitter.twitter_hover, .contact-desktop-twitter.twitter-hover {
+  background-position: 0 -1239px;
+}
+/* line 43, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.contact-desktop-twitter:active, .contact-desktop-twitter.twitter_active, .contact-desktop-twitter.twitter-active {
+  background-position: 0 -1124px;
+}
+
+/* line 60, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.contact-desktop-viadeo {
+  background-position: 0 -692px;
+  height: 40px;
+  width: 34px;
+}
+/* line 43, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.contact-desktop-viadeo:hover, .contact-desktop-viadeo.viadeo_hover, .contact-desktop-viadeo.viadeo-hover {
+  background-position: 0 -772px;
+}
+/* line 43, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.contact-desktop-viadeo:active, .contact-desktop-viadeo.viadeo_active, .contact-desktop-viadeo.viadeo-active {
+  background-position: 0 -732px;
+}
+
+/* line 60, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.contact-desktop-css3 {
+  background-position: 0 -522px;
+}
+
+/* line 60, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.contact-desktop-email {
+  background-position: 0 -1085px;
+}
+/* line 43, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.contact-desktop-email:hover, .contact-desktop-email.email_hover, .contact-desktop-email.email-hover {
+  background-position: 0 -1046px;
+}
+/* line 43, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.contact-desktop-email:active, .contact-desktop-email.email_active, .contact-desktop-email.email-active {
+  background-position: 0 -1162px;
+}
+
+/* line 60, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.contact-desktop-github {
+  background-position: 0 -926px;
+}
+/* line 43, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.contact-desktop-github:hover, .contact-desktop-github.github_hover, .contact-desktop-github.github-hover {
+  background-position: 0 -1006px;
+}
+/* line 43, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.contact-desktop-github:active, .contact-desktop-github.github_active, .contact-desktop-github.github-active {
+  background-position: 0 -966px;
+}
+
+/* line 60, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.contact-desktop-gplus {
+  background-position: 0 -850px;
+}
+/* line 43, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.contact-desktop-gplus:hover, .contact-desktop-gplus.gplus_hover, .contact-desktop-gplus.gplus-hover {
+  background-position: 0 -888px;
+}
+/* line 43, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.contact-desktop-gplus:active, .contact-desktop-gplus.gplus_active, .contact-desktop-gplus.gplus-active {
+  background-position: 0 -812px;
+}
+
+/* line 60, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.contact-desktop-html5 {
+  background-position: 0 -171px;
+}
+
+/* line 60, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.contact-desktop-js {
+  background-position: 0 0;
+}
+
+/* line 60, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.contact-desktop-lanyrd {
+  background-position: 0 -1277px;
+}
+/* line 43, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.contact-desktop-lanyrd:hover, .contact-desktop-lanyrd.lanyrd_hover, .contact-desktop-lanyrd.lanyrd-hover {
+  background-position: 0 -1357px;
+}
+/* line 43, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.contact-desktop-lanyrd:active, .contact-desktop-lanyrd.lanyrd_active, .contact-desktop-lanyrd.lanyrd-active {
+  background-position: 0 -1317px;
+}
+
+/* line 60, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.contact-desktop-linkedin {
+  background-position: 0 -1397px;
+}
+/* line 43, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.contact-desktop-linkedin:hover, .contact-desktop-linkedin.linkedin_hover, .contact-desktop-linkedin.linkedin-hover {
+  background-position: 0 -1477px;
+}
+/* line 43, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.contact-desktop-linkedin:active, .contact-desktop-linkedin.linkedin_active, .contact-desktop-linkedin.linkedin-active {
+  background-position: 0 -1437px;
+}
+
+/* line 60, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.contact-desktop-semantic {
+  background-position: 0 -346px;
+}
+
+/* line 60, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.contact-desktop-twitter {
+  background-position: 0 -1201px;
+}
+/* line 43, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.contact-desktop-twitter:hover, .contact-desktop-twitter.twitter_hover, .contact-desktop-twitter.twitter-hover {
+  background-position: 0 -1239px;
+}
+/* line 43, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.contact-desktop-twitter:active, .contact-desktop-twitter.twitter_active, .contact-desktop-twitter.twitter-active {
+  background-position: 0 -1124px;
+}
+
+/* line 60, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.contact-desktop-viadeo {
+  background-position: 0 -692px;
+}
+/* line 43, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.contact-desktop-viadeo:hover, .contact-desktop-viadeo.viadeo_hover, .contact-desktop-viadeo.viadeo-hover {
+  background-position: 0 -772px;
+}
+/* line 43, ../../../.rvm/rubies/ruby-1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.contact-desktop-viadeo:active, .contact-desktop-viadeo.viadeo_active, .contact-desktop-viadeo.viadeo-active {
+  background-position: 0 -732px;
+}
+
+/* line 211, ../_sass/_theme.sass */
 .sayHi {
   list-style: none;
   padding: 0;
   margin: 0;
 }
+/* line 216, ../_sass/_theme.sass */
+.sayHi li {
+  display: inline-block;
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+  margin-right: 3.2%;
+}
+/* line 220, ../_sass/_theme.sass */
+.sayHi li:last-child {
+  margin-right: 0;
+}
+/* line 223, ../_sass/_theme.sass */
+.sayHi a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
 
-/* line 203, ../_sass/_theme.sass */
+/* line 231, ../_sass/_theme.sass */
 footer {
   font-size: 0.8em;
 }
-/* line 206, ../_sass/_theme.sass */
+/* line 234, ../_sass/_theme.sass */
 footer a:hover {
   color: #b4b4b4;
 }
-/* line 208, ../_sass/_theme.sass */
+/* line 236, ../_sass/_theme.sass */
 footer a:active {
   color: #656565;
 }

@@ -17,6 +17,10 @@ h2
   font-size: emCalc(30px)
   font-weight: 100
   margin: 0
+  +at-breakpoint($M)
+    font-size: emCalc(72px)
+    margin-top: 16px
+    margin-bottom: 1em
 
 // HEADER
 
@@ -98,9 +102,7 @@ h2
 
 .big-icons
   height: 414px
-  // background: $nearlyWhite
-  +at-breakpoint($M)
-    background: red
+  background: $nearlyWhite
 
   @media only screen and (max-width: $S )
     display: none
@@ -112,10 +114,13 @@ h2
 .what-I-do
   background: lighten($lightGrey, 20%)
   +at-breakpoint($M)
-    +at-breakpoint($M)
-    background: $lightGrey url('../assets/img/multi-devices.png') -545% emCalc(120px) no-repeat
+    background: lighten($lightGrey, 20%) url('../assets/img/multi-devices.png') -33em emCalc(120px) no-repeat
+  +at-breakpoint($L)
+    background-position: -26em emCalc(120px)
+
 
 .yep-I-do
+  margin-bottom: 4em
   +at-breakpoint($M)
     +pre(5)
     +span-columns(7, 12)
@@ -188,14 +193,37 @@ $social-mobile-spacing: 10px
 // SAY HELLO
 
 .say-hello
+  p
+    font-weight:  100
+    margin-bottom:  emCalc(120px)
+  em
+    font-style: normal
   @media only screen and (max-width: $S )
     display: none
+
+
+
+$contact-desktopspacing: 20px
+@import  "contact-desktop/*.png"
+@include all-contact-desktop-sprites(true)
++all-contact-desktop-sprites
 
 .sayHi
   list-style: none
   padding: 0
   margin: 0
 
+  li
+    display: inline-block
+    +hide-text()
+    margin-right: 3.2% // 3%
+    &:last-child
+      margin-right: 0
+
+  a
+    display: block
+    width: 100%
+    height: 100%
 
 
 // FOOTER
